@@ -16,6 +16,9 @@ gem "awesome_print"
 gem "slim"
 gem "jquery-rails"
 gem "bootstrap"
+gem "kaminari"
+gem "dynamic_form"
+gem "jquery-datatables-rails", github: "rweng/jquery-datatables-rails"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
